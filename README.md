@@ -2,9 +2,17 @@
 
 It is a utility to find relative balance for account between a time period
 
+## How to pacakge
+
+Use below Maven command to package the jar file
+
+```bash
+mvn clean package
+```
+
 ## How to run
 
-Using Jar - use below command to pass arguments (csv_file_path, account_id, from_date_time, to_date_time) and run
+Use below command to pass arguments (csv_file_path, account_id, from_date_time, to_date_time) and run
 
 ```bash
 java -jar AnalyseFinancialTransaction-1.0-SNAPSHOT-shaded.jar <csv_file_path> <account_id>, <from_date_time>, <to_date_time>

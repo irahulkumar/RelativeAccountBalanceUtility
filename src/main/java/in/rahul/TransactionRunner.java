@@ -1,21 +1,17 @@
 package in.rahul;
 
 import in.rahul.bean.RelativeBalanceInfo;
-import in.rahul.bean.Transaction;
 import in.rahul.util.CSVLoader;
 import in.rahul.util.TransactionOperation;
 
 import java.io.IOException;
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.util.ArrayList;
 
 public class TransactionRunner {
     public static void main(String[] args) throws IOException {
         String path = "D:\\Project\\AnalyseFinancialTransaction\\src\\main\\resources\\transaction.csv";
         String accountId = "ACC778899";
         String from = "20/10/2018 12:00:00";
-        String to = "20/10/2018 20:00:00";
+        String to = "21/10/2018 20:00:00";
 
         if(args.length == 4){
             path = args[0];
